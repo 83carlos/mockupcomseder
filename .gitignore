@@ -1,0 +1,11 @@
+node_modules/
+dist/
+tmp/
+qa/
+scripts/
+.npmrc
+pnpm-lock.yaml
+pnpm-workspace.yaml
+AGENTS.md
+design-qa.md
+*.log
