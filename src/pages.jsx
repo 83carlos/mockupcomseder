@@ -216,6 +216,14 @@ export function InstitucionalPage() {
           ))}
         </div>
       </section>
+      <section className="statute-download content-width" aria-label="Estatuto da COMSEDER">
+        <a
+          href={assetPath("assets/docs/estatuto-consolidado-comseder-layout-revisado-2026.pdf")}
+          download="Estatuto Consolidado - COMSEDER - Layout Revisado 2026.pdf"
+        >
+          Acesse nosso Estatuto
+        </a>
+      </section>
       <ContactSection />
     </div>
   );

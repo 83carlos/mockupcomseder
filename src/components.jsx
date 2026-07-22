@@ -146,7 +146,7 @@ export function WhatsAppCta() {
   return (
     <a
       className="whatsapp-cta"
-      href="https://wa.me/558332162908"
+      href="https://wa.me/5583988450551"
       target="_blank"
       rel="noreferrer"
       aria-label="Entre em contato pelo WhatsApp e garanta o seu plano"

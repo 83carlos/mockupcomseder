@@ -881,6 +881,40 @@ main:focus {
   line-height: 1;
 }
 
+.statute-download {
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+}
+
+.statute-download a {
+  width: min(100%, 460px);
+  min-height: 62px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  background: var(--green);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.15;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 9px 20px rgb(0 0 0 / 16%);
+  transition: filter 180ms ease, transform 180ms ease;
+}
+
+.statute-download a:hover {
+  filter: brightness(.92);
+  transform: translateY(-2px);
+}
+
+.statute-download a:active {
+  transform: translateY(0);
+}
+
 .provider-content {
   margin-top: 105px;
   text-align: center;
@@ -1991,6 +2025,15 @@ main:focus {
 
   .director-card p {
     font-size: 26px;
+  }
+
+  .statute-download {
+    margin-top: 46px;
+  }
+
+  .statute-download a {
+    min-height: 56px;
+    font-size: 20px;
   }
 
   .provider-content {
