@@ -125,7 +125,7 @@ export const VALUES = [
 export const DIRECTORS = [
   { name: "Francisco Fernandes Lisbôa", role: "Diretor Presidente", image: "/assets/pdf/8-institucional-04.png", side: "left" },
   { name: "Najla Coeli Diniz Gomes", role: "Diretora Administrativa", image: "/assets/pdf/8-institucional-05.png", side: "right" },
-  { name: "Antônio Alves Vieira", role: "Diretoria Operacional", image: "/assets/pdf/8-institucional-06.png", side: "left" },
+  { name: "Antônio Alves Vieira", role: "Diretor Operacional", image: "/assets/pdf/8-institucional-06.png", side: "left" },
   { name: "Fernando Antônio Dias", role: "Diretor de integração", image: "/assets/pdf/8-institucional-07.png", side: "right" },
 ];
 
